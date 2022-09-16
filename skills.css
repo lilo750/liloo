@@ -1,0 +1,262 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --whiteColor: white;
+  --backgroundColor: #f6f6f6;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  margin-top: 8px;
+  overflow-x: hidden;
+}
+header h3 {
+  position: relative;
+  top: 5px;
+  left: 9rem;
+}
+nav {
+  position: relative;
+  top: -15px;
+  margin-left: 59rem;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+}
+section > div:nth-of-type(1) {
+  height: 14rem;
+  background: var(--backgroundColor);
+  text-align: center;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+section > div:nth-of-type(1) h1 {
+  position: relative;
+  top: 35px;
+  font-size: 29px;
+}
+section > div:nth-of-type(1) h1 span {
+  color: #04a9f4;
+}
+section > div:nth-of-type(1) p {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 40px;
+}
+section > div:nth-of-type(2) {
+  height: 180px;
+  margin-top: 45px;
+}
+figcaption {
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.6;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+section div:nth-of-type(2) figure:nth-of-type(2) img {
+  width: 64px;
+  height: 64px;
+}
+section div:nth-of-type(2) figure h3 {
+  text-align: center;
+}
+section div:nth-of-type(2) figure img {
+  margin-left: 150px;
+}
+section div:nth-of-type(3) {
+  height: 300px;
+  background-color: var(--backgroundColor);
+}
+section div:nth-of-type(3) div {
+  display: grid;
+  justify-content: flex-end;
+}
+section div:nth-of-type(3) div:nth-of-type(1) img {
+  width: 260px;
+  margin-top: 40px;
+  position: absolute;
+  left: 10rem;
+}
+section div:nth-of-type(3) div:nth-of-type(2) p {
+  width: 550px;
+  position: relative;
+  top: 60%;
+  margin-right: 15rem;
+  line-height: 1.6;
+}
+section div:nth-of-type(3) div:nth-of-type(2) h2 {
+  position: relative;
+  left: -3px;
+  width: 107px;
+  top: 2.5em;
+}
+section div:nth-of-type(4) {
+  height: 170px;
+}
+section div:nth-of-type(4) > div {
+  margin-left: 25px;
+  color: var(--whiteColor);
+  height: 105px;
+  width: 290px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+section div:nth-of-type(4) div:nth-of-type(1) {
+  background-color: #b33939;
+}
+section div:nth-of-type(4) div:nth-of-type(2) {
+  background-color: #227093;
+}
+section div:nth-of-type(4) div:nth-of-type(3) {
+  background-color: #218c74;
+}
+.num {
+  background-color: transparent !important;
+  color: var(--whiteColor);
+  position: relative;
+  left: 2.5rem;
+  top: -20px;
+  font-size: 40px;
+}
+section br + span {
+  position: relative;
+  top: 20%;
+  left: -15.5px;
+}
+.last {
+  left: -21.5px;
+}
+section > div:nth-child(5) {
+  height: 430px;
+  background-color: var(--backgroundColor);
+}
+section > div:nth-child(5) h2 {
+  width: 113px;
+  position: relative;
+  left: 47%;
+  top: 50px;
+}
+section > div:nth-child(5) div:nth-of-type(1) {
+  margin-top: 85px;
+}
+section > div:nth-child(5) div {
+  width: 910px;
+  height: 36px;
+  margin-top: 1px;
+  margin-left: 20.5%;
+  position: relative;
+  background-color: var(--whiteColor);
+}
+section > div:nth-child(5) div::before {
+  content: "";
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  background-color: #03a9f4;
+}
+section > div:nth-child(5) div:nth-of-type(1)::before {
+  width: 60%;
+}
+section > div:nth-child(5) div:nth-of-type(2)::before {
+  width: 70%;
+}
+section > div:nth-child(5) div:nth-of-type(3)::before {
+  width: 80%;
+}
+section > div:nth-child(5) div:nth-of-type(4)::before {
+  width: 65%;
+  left: 0;
+}
+section > div:nth-child(5) div:nth-of-type(5)::before {
+  width: 90%;
+}
+section > div:nth-child(5) span {
+  position: relative;
+  bottom: 25px;
+  font-weight: bold;
+}
+section > div:nth-child(5) span:nth-of-type(1) {
+  left: 14em;
+}
+section > div:nth-child(5) span:nth-of-type(1)::after {
+  content: "60%";
+  position: absolute;
+  color: var(--whiteColor);
+  left: 35em;
+  top: -2px;
+}
+section > div:nth-child(5) span:nth-of-type(2) {
+  left: 14.8em;
+}
+section > div:nth-child(5) span:nth-of-type(2)::after {
+  content: "70%";
+  position: absolute;
+  color: var(--whiteColor);
+  top: -2px;
+  left: 40em;
+}
+section > div:nth-child(5) span:nth-of-type(3) {
+  left: 11.8em;
+}
+section > div:nth-child(5) span:nth-of-type(3)::after {
+  content: "80%";
+  position: absolute;
+  color: var(--whiteColor);
+  top: -2px;
+  left: 48.5em;
+}
+section > div:nth-child(5) span:nth-of-type(4) {
+  left: 14.8em;
+}
+section > div:nth-child(5) span:nth-of-type(4)::after {
+  content: "65%";
+  position: absolute;
+  color: var(--whiteColor);
+  top: -2px;
+  left: 37.2em;
+}
+section > div:nth-child(5) span:nth-of-type(5) {
+  left: 13.5em;
+}
+section > div:nth-child(5) span:nth-of-type(5)::after {
+  content: "90%";
+  position: absolute;
+  color: var(--whiteColor);
+  top: -2px;
+  left: 52.5em;
+}
+footer {
+  background-color: #333333;
+  height: 45px;
+  color: white;
+  font-size: 13.5px;
+}
+footer a {
+  text-decoration: none;
+  font-size: 18;
+  font-weight: bold;
+  color: #1a7493;
+}
+footer span {
+  position: relative;
+  top: 15px;
+  margin-left: 11em;
+}
+footer span::after {
+  content: "All Right Reversed Ⓒ 2022";
+  position: absolute;
+  left: 65em;
+  width: 200px;
+}
